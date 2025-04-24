@@ -1,6 +1,6 @@
 site_url: https://dailyflute.com
 backend:
-  name: git-gateway
+  name: github
   branch: main
   repo: hiddensumba/dailyflutes  # pastikan ini tidak ada tab, hanya spasi
 media_folder: "static/img"
