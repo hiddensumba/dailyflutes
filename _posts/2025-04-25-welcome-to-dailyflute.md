@@ -1,9 +1,13 @@
 ---
-layout: post
-title: "Welcome to DailyFlute 🎶"
+title: Welcome to DailyFlute 🎶
+description: my little corner of the internet where thoughts flow smoother than jazz on a rainy afternoon.
+author: Daily Flute
 date: 2025-04-25 12:00:00 +0700
-author: DailyFlute
+categories: [Blogging]
 tags: [intro, personal, welcome]
+pin: true
+math: true
+mermaid: true
 ---
 
 Hey there 👋
