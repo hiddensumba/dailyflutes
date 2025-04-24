@@ -1,6 +1,7 @@
 site_url: https://dailyflute.com
 backend:
-  name: git-gateway
+name: github
+  repo: hiddensumba/dailyflutes
   branch: main
 media_folder: "static/img"
 public_folder: "/img"
