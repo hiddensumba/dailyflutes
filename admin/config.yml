@@ -3,11 +3,10 @@ backend:
   name: github
   branch: main
   repo: hiddensumba/dailyflutes  # pastikan ini tidak ada tab, hanya spasi
-    auth:
+  auth:
     - provider: github
       client_id: Ov23liMQb1hqRVKT2bOx  # Ganti dengan Client ID yang lo dapatkan dari GitHub
       client_secret: b692d5266959d4c926521a2e8fa82e2cedfe2948  # Ganti dengan Client Secret
-      
 media_folder: "static/img"
 public_folder: "/img"
 collections:
