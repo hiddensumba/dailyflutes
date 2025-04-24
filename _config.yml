@@ -10,6 +10,7 @@ lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: Asia/Makassar
+future: true  # 👉 ngebolehin post bertanggal masa depan tampil
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
@@ -150,7 +151,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: "https://dailyflute.com"
+baseurl: ""
 
 # ------------ The following options are not recommended to be modified ------------------
 
