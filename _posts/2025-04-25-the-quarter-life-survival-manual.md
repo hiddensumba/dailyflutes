@@ -3,7 +3,10 @@ title: The Quarter-Life Survival Manual: What No One Tells You About Growing Up
 date: 2025-04-25
 description: Forget the cheesy life advice. This is your brutally honest manual to surviving your 20s without losing your soul—or your Wi-Fi password.
 categories: [Blogging]
-tags: ["quarter life crisis", "self growth", "personal development", "gen z", "mental health"]
+tags: [quarter life crisis, self growth, personal development, gen z, mental health]
+pin: true
+math: true
+mermaid: true
 image:
   path: /assets/img/posts/quarter-life-manual/cover.jpg
   alt: "A person staring at a laptop with 37 tabs open and a coffee cup dangerously empty"
