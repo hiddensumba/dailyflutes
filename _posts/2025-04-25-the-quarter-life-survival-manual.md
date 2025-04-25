@@ -1,5 +1,5 @@
 ---
-title: The Quarter-Life Survival Manual: What No One Tells You About Growing Up
+title: "The Quarter-Life Survival Manual: What No One Tells You About Growing Up"
 date: 2025-04-25
 description: Forget the cheesy life advice. This is your brutally honest manual to surviving your 20s without losing your soul—or your Wi-Fi password.
 categories: [Blogging]
