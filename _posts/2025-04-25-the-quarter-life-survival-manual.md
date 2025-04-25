@@ -65,7 +65,7 @@ Each section is expanded in dedicated guides. Think of them as chapters in your 
 Here’s what’s coming:
 
 1. [How to Stop Comparing Yourself When Everyone's Life Looks Better on Instagram](/posts/how-to-stop-comparing-yourself-when-everyones-life-looks-better-on-instagram)
-2. [The Productivity Trap: Why Working Harder Isn’t the Flex You Think It Is](/posts/productivity-trap)
+2. [The Productivity Trap: Why Working Harder Isn’t the Flex You Think It Is](/posts/the-productivity-trap)
 3. [Finding Your Passion Is Bullsh*t – Here’s What Works Instead](/posts/finding-passion-bullshit)
 4. [How to Think Clearly When Your Brain Feels Like a Browser With 57 Tabs](/posts/clear-thinking-101)
 5. [Digital Detox 101: Escaping the Scroll Hole Without Becoming a Hermit](/posts/digital-detox)
