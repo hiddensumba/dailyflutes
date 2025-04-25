@@ -1,3 +1,4 @@
+---
 title: "The Productivity Trap: Why Working Harder Isn’t the Flex You Think It Is"
 date: 2025-04-25
 description: "Hustle culture had us fooled. Here’s why being busy doesn’t mean you’re winning—and how to escape the toxic cycle of performative productivity."
@@ -6,8 +7,10 @@ tags: [productivity, burnout, self worth, quarter life crisis, mental health]
 pin: true
 math: true
 mermaid: true
-image: /dailyflute/img/Screenshot_2.jpg
-alt: "A tired person slumped over a laptop with a calendar full of fake meetings"
+image: 
+  path: /dailyflute/img/Screenshot_2.jpg
+  alt: "A tired person slumped over a laptop with a calendar full of fake meetings"
+---
 
 The Productivity Trap: Why Working Harder Isn’t the Flex You Think It Is
 
