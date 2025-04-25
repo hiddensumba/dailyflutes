@@ -2,8 +2,12 @@
 title: "How to Stop Comparing Yourself When Everyone's Life Looks Better on Instagram"
 date: 2025-04-25
 description: "Everyone’s glowing. Everyone’s winning. Except you, right? Let’s unpack the toxic art of comparison and how to scroll without spiraling."
+categories:[Blogging]
 tags: [comparison, instagram culture, self worth, mental health, quarter life]
-image: /assets/img/posts/how-to-stop-comparing/cover.jpg
+pin: true
+math: true
+mermaid: true
+image: /dailyflute/img/Screenshot_1.jpg
 alt: "A person scrolling Instagram with a blank stare and a slowly melting ice cream cone"
 ---
 
