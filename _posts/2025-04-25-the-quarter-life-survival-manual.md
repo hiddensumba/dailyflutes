@@ -8,7 +8,7 @@ pin: true
 math: true
 mermaid: true
 image:
-  path: /assets/img/posts/quarter-life-manual/cover.jpg
+  path: /dailyflute/img/cover.jpg
   alt: "A person staring at a laptop with 37 tabs open and a coffee cup dangerously empty"
 ---
 
