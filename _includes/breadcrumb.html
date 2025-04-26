@@ -1,0 +1,44 @@
+{% if page.layout == "post" or page.layout == "page" %}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="{{ '/' | absolute_url }}">Home</a>
+  {% if page.categories %}
+    {% assign first_category = page.categories | first %}
+    &raquo;
+    <a href="{{ '/categories/' | absolute_url }}{{ first_category | slugify }}/">
+      {{ first_category | capitalize }}
+    </a>
+  {% endif %}
+  &raquo;
+  <span>{{ page.title }}</span>
+</nav>
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ '/' | absolute_url }}"
+    }
+    {% if page.categories %}
+    ,{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{ first_category | capitalize }}",
+      "item": "{{ '/categories/' | absolute_url }}{{ first_category | slugify }}/"
+    }
+    {% endif %}
+    ,{
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{{ page.title | escape }}",
+      "item": "{{ page.url | absolute_url }}"
+    }
+  ]
+}
+</script>
+{% endif %}
