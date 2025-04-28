@@ -8,3 +8,41 @@
 ';
 
 /* append your custom style below */
+// =======================================
+// 🔥 Custom Styles: Cookie Consent Modal
+// =======================================
+
+.cookie-modal {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.cookie-modal-content {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.cookie-button {
+  background: #008cba;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cookie-button:hover {
+  background: #005f75;
+}
