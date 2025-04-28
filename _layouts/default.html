@@ -17,6 +17,15 @@ layout: compress
   {% include head.html %}
 
   <body>
+        <!-- Cookie Consent Banner -->
+    <div id="cookie-consent-banner" style="display: none;">
+        <div class="cookie-consent-container">
+            <p>We use cookies to ensure you get the best experience on our website. <a href="/privacy-policy">Learn more</a></p>
+            <button id="accept-cookies">Accept</button>
+            <button id="decline-cookies">Decline</button>
+        </div>
+    </div>
+    
     {% include sidebar.html lang=lang %}
 
     <div id="main-wrapper" class="d-flex justify-content-center">
