@@ -17,12 +17,25 @@ layout: compress
   {% include head.html %}
 
   <body>
-        <!-- Cookie Consent Banner -->
+    <!-- Cookie Consent Banner -->
     <div id="cookie-consent-banner" style="display: none;">
         <div class="cookie-consent-container">
             <p>We use cookies to ensure you get the best experience on our website. <a href="/privacy-policy">Learn more</a></p>
             <button id="accept-cookies">Accept</button>
             <button id="decline-cookies">Decline</button>
+            <button id="manage-cookies">Manage Cookies</button>
+        </div>
+    </div>
+
+    <!-- Pengaturan Cookies -->
+    <div id="cookie-settings" style="display: none;">
+        <div class="cookie-settings-container">
+            <h3>Cookie Preferences</h3>
+            <label><input type="checkbox" id="cookie-essential" checked disabled> Essential Cookies</label><br>
+            <label><input type="checkbox" id="cookie-analytics"> Analytics Cookies</label><br>
+            <label><input type="checkbox" id="cookie-marketing"> Marketing Cookies</label><br>
+            <button id="save-preferences">Save Preferences</button>
+            <button id="close-settings">Close</button>
         </div>
     </div>
     
