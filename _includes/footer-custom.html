@@ -1,0 +1,66 @@
+<!-- ⚡ Cookie Consent Modal START -->
+<div id="cookieConsentModal" class="cookie-modal hidden">
+  <div class="cookie-modal-content">
+    <h2>🍪 We Use Cookies</h2>
+    <p>We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking "Accept All", you consent to our use of cookies.</p>
+    
+    <div class="cookie-options">
+      <label><input type="checkbox" id="essentialCookies" checked disabled> Essential Cookies (Always Active)</label><br>
+      <label><input type="checkbox" id="analyticsCookies"> Analytics Cookies</label><br>
+      <label><input type="checkbox" id="marketingCookies"> Marketing Cookies</label>
+    </div>
+
+    <div class="cookie-buttons">
+      <button id="acceptAll">Accept All</button>
+      <button id="rejectAll">Reject All</button>
+      <button id="savePreferences">Save Preferences</button>
+    </div>
+
+    <p class="cookie-policy-link">
+      <a href="/privacy-policy/" target="_blank">Privacy Policy</a>
+    </p>
+  </div>
+</div>
+
+<script>
+(function() {
+  const modal = document.getElementById('cookieConsentModal');
+  const analytics = document.getElementById('analyticsCookies');
+  const marketing = document.getElementById('marketingCookies');
+
+  if (!localStorage.getItem('cookiePreferences')) {
+    modal.classList.remove('hidden');
+  }
+
+  function setPreferences(prefs) {
+    localStorage.setItem('cookiePreferences', JSON.stringify(prefs));
+    modal.classList.add('hidden');
+    console.log('Cookie preferences saved:', prefs);
+  }
+
+  document.getElementById('acceptAll').addEventListener('click', function() {
+    setPreferences({
+      essential: true,
+      analytics: true,
+      marketing: true
+    });
+  });
+
+  document.getElementById('rejectAll').addEventListener('click', function() {
+    setPreferences({
+      essential: true,
+      analytics: false,
+      marketing: false
+    });
+  });
+
+  document.getElementById('savePreferences').addEventListener('click', function() {
+    setPreferences({
+      essential: true,
+      analytics: analytics.checked,
+      marketing: marketing.checked
+    });
+  });
+})();
+</script>
+<!-- ⚡ Cookie Consent Modal END -->
